@@ -43,11 +43,6 @@ a:hover {
     width: 80%;
 }
 
-.abstract{
-    padding-top: 0%; 
-    padding-bottom: 2%;    
-}
-
 .videoDemos{
     padding-top: 0%; 
     padding-bottom: 2%;
@@ -60,33 +55,6 @@ a:hover {
     float: center;
 }
 
-.displayImage{
-    width: 33%;
-    float: left;
-
-}
-
-.displayVideo{
-    width: 33%;
-    float: left;
-
-}
-
-.viewers{
-    width: 33%;
-    float: left;
-}
-
-.demos3D{
-    padding-top: 2%; 
-    padding-bottom: 2%;    
-}
-
-.pointClouds{
-    padding-top: 0%; 
-    padding-bottom: 2%;
-}
-
 .button{
     margin: 0.5rem;
     padding: 0.75rem;
@@ -96,14 +64,3 @@ a:hover {
     text-decoration: none;
 }
 
-.citation{
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
-    display: block;
-    padding: 5px;
-    text-align: left;
-    font-size: 0.75rem;
-    color: #ffffff;
-    white-space: pre-wrap;
-    font-family: 'Courier New', monospace;
-}
