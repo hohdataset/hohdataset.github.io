@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOH: Human-Object-Human Handover</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script> -->
+</head>
+
+<body>
+    <div class = "header">
+        <h2>
+            <em>HOH: Markerless Multimodal Human-Object-Human Handover Dataset with Large Object Count</em>
+        </h2>
+
+        <p>
+            <strong>NeurIPS2023 Datasets and Benchmarks</strong><br/>
+            Anonymous Authors
+        </p>
+
+        <p>            
+            <a target="_blank" href = "http://128.153.25.39:5000/sharing/XnQezt3Zv">Link to Dataset</a>
+        </p>
+        
+    </div>  
+
+    <div class = "textAndDemos">
+        <img src="assets\hoh.jpg" alt="Teaser" height="100%" width="100%">
+
+        <h2>
+            2,720 Handovers&nbsp;&nbsp;&nbsp;&nbsp;136 Objects&nbsp;&nbsp;&nbsp;&nbsp;40 People&nbsp;&nbsp;&nbsp;&nbsp;20 Pairs<br/>            
+            Full Markerless 360 Capture<br/>
+            <br/>
+            Largest Multi-Object Handover Dataset To Date
+        </h2>
+
+
+        <p>
+            <h3>Data contained in HOH</h3>            
+            Kinect RGB-D Videos and High-Speed Color Videos from 4 Viewpoints<br/>            
+            Giver and Receiver Comfort Ratings<br/>
+            OpenPose Skeletons in Kinect Videos<br/>
+            Fused Spatiotemporal 3D Point Clouds<br/>
+            Ground Truth Annotations of Key Events---Grasp, Transfer, Release<br/>
+            Ground Truth Labels on Handedness and Grasp Type<br/>
+            Ground Truth Giver Hand, Object, and Receiver Hand Segments<br/>
+            Tracked Giver Hand, Object, and Receiver Hand in 2D and 3D<br/>
+            3D Models and Metadata for 136 Objects<br/>
+        </p>
+
+
+
+        <!--<div class = "abstract">
+            
+            <p>
+                We present the HOH (<strong>H</strong>uman-<strong>O</strong>bject-<strong>H</strong>uman) Handover Dataset, a large object
+                count dataset with 136 objects, to accelerate data-driven research on handover
+                studies, human-robot handover implementation, and artificial intelligence (AI) on
+                handover parameter estimation from 2D and 3D data of person interactions. HOH
+                contains multi-view RGB and depth data, skeletons, fused point clouds, grasp
+                type and handedness labels, object, giver hand, and receiver hand 2D and 3D
+                segmentations, giver/receiver comfort ratings, and paired object metadata and 3D
+                models for 2,720 handover interactions spanning 136 objects and 20 giver-receiver
+                pairs—40 with role-reversal—organized from 40 participants. As the only HOH
+                fully markerless handover capture dataset, HOH represents natural human-human
+                handover interactions, overcoming challenges with markered datasets that require
+                specific suiting for body tracking, and lack high-resolution hand tracking. To date,
+                HOH is the largest handover dataset in number of objects, participants, pairs with
+                role reversal accounted for, and total interactions captured.
+            </p>
+
+        </div>-->
+
+        <p>
+            <br/>
+        </p>
+        <div class = "videoDemos">
+        <h3>
+            Example Video Sequences
+            </h3>
+            <div class = "videoSet">
+                <video width="98%" height="98%" controls>
+                    <source src="assets\01.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class = "videoSet">
+                <video width="98%" height="98%" controls>
+                    <source src="assets\02.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class = "videoSet">
+                <video width="98%" height="98%" controls>
+                    <source src="assets\03.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+
+    </div>  
+</body>
+</html>
