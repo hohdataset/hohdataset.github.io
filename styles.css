@@ -1,5 +1,5 @@
 body{
-    background: #ffffff;
+    background: #222222;
     text-align: center;
     font-family: Arial, sans-serif;
     font-size: 1.2rem;
@@ -7,7 +7,7 @@ body{
     padding-bottom: 3%;
     padding-left: 10%;
     padding-right: 10%;
-    color: #000000;
+    color: #FFFFFF;
     float: right;
 }
 
@@ -15,12 +15,11 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     /* background-color: #F3F4EB; */
-    background-color: #FFFFFF;
     padding: 1rem;
 }
 
 a:link {
-  color: #149099;
+  color: #0077bb;
   text-decoration: none;
 }
 
@@ -54,6 +53,8 @@ a:hover {
     margin-bottom: 3%;
     float: center;
 }
+
+
 
 .button{
     margin: 0.5rem;
